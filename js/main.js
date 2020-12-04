@@ -1,8 +1,55 @@
+function soma(n1, n2) {
+    return n1 + n2;
+}
+
+alert(soma(1,5))
+
+function setReplace (frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome)
+
+}
+
+alert(setReplace("Vai Japão", "Japão", "Brasil"))
+
+var validar;
+function confirmaIdade(idade){
+    if(idade >=18){
+        validar = true;
+    }else{
+        validar = false;
+    }
+    return validar
+}
+
+var idade = prompt("Qual sua idade?")
+confirmaIdade(idade)
+alert(validar)
+
+
+/*function confirmaIdade(idade){
+    var validar;
+    if(idade >=18){
+        validar = true;
+    }else{
+        validar = false;
+    }
+    return validar
+}
+
+var idade = prompt("Qual sua idade?")
+alert(confirmaIdade(idade)); */
+
+
+
+
 /*var data = new Date();
 alert(data.getDay())
 alert(data.getMonth())
 alert(data.getFullYear())*/
 
+/*var lista = [“Alemanha”, “Inglaterra”, “Escócia”]/
+lista.push(“Polônia”);
+lista.pop(“Inglaterra”);*/
 
 
 /*var cont;
