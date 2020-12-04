@@ -1,6 +1,6 @@
 # Programação para Internet com o JavaScript - :man_technologist:
 
-Módulo do BootCamp DecolaDev Avanade 2021, oferecido pela DIO e apresentando pelo professor Rafael Galleani.
+Módulo do BootCamp DecolaDev Avanade 2021, oferecido pela DIO e apresentado pelo professor Rafael Galleani.
 
 ## Conteúdo :page_with_curl:
 
