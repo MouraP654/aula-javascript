@@ -1,4 +1,33 @@
-function soma(n1, n2) {
+function trocar(elemento){
+    //document.getElementById("trocar").innerHTML = "Obrigado por passar o mouse!"
+    elemento.innerHTML = "Obrigado por passar o mouse!"
+}
+
+function voltar(elemento){
+    //document.getElementById("trocar").innerHTML = "Passe o mouse aqui"
+    elemento.innerHTML = "Passe o mouse aqui"
+}
+
+
+function clicou (){
+    document.getElementById("obrigado").innerHTML = "Obrigado por clicar";
+    //alert("Obrigado por clicar!")
+}
+
+function load(){
+    alert("Página Carregada!")
+}
+
+function funcaoChange (elemento) {
+    console.log(elemento.value)
+}
+
+/*function redirecionar (){
+    //window.open("https://github.com/MouraP654/aula-javascript")
+    //window.location.href = "https://github.com/MouraP654/aula-javascript"
+}*/
+
+/*function soma(n1, n2) {
     return n1 + n2;
 }
 
@@ -11,7 +40,7 @@ function setReplace (frase, nome, novo_nome){
 
 alert(setReplace("Vai Japão", "Japão", "Brasil"))
 
-var validar;
+var validar; //utilização variável global
 function confirmaIdade(idade){
     if(idade >=18){
         validar = true;
@@ -24,9 +53,10 @@ function confirmaIdade(idade){
 var idade = prompt("Qual sua idade?")
 confirmaIdade(idade)
 alert(validar)
+*/
 
-
-/*function confirmaIdade(idade){
+//utilização variável local
+/*function confirmaIdade(idade){ 
     var validar;
     if(idade >=18){
         validar = true;
